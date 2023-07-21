@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Ysabeau+Office:wght@100&display=swap');
+ 
+  *{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+
+    background:lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+
+    background-color: white;
+    position: relative;
+    width:90%;
+    margin:50px;
+    max-width: 10100px;
+    min-height: 1579px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 15px 25px black;
+
+}
+.container .left-side{
+
+    position:relative;
+    background-color: #003147;
+    padding:40px;
+    width: 400px;
+}
+
+.profiletext{
+    position:relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225,225,225,0.2);
+}
+.profiletext .imgBx{
+    position: relative;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.profiletext .imgBx img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    top:0;
+    left:0;
+
+}
+.profiletext h2
+{
+color:white;
+font-size:1.5em;
+margin-top: 10px;
+text-transform: uppercase;
+font-weight: 600;
+line-height: 1.5em;
+text-align: center;
+}
+.profiletext h2 span{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.contactinfo{
+   
+    padding-top: 40px;
+
+}
+.title{
+      color:white;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+}
+.contactinfo ul{
+    position:relative;
+}
+.contactinfo ul li{
+    position:relative;
+   list-style: none;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.contactinfo ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactinfo ul li span{
+    color:#fff;
+    font-weight: 300;
+}
+.contactinfo.Education li
+{
+    margin-bottom: 20px;
+}
+.contactinfo.Education li h5{
+    color:#03a9f4;
+    font-weight: 400;
+}
+.contactinfo.Education li h4{
+    color:#fff;
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+.contactinfo.Education.Hardskills{
+    padding-top: 30px;
+}
+.contactinfo.Education.Hardskills li {
+    margin-bottom: 20px;
+}
+.contactinfo.Education.Hardskills li span{
+    font-family: 'Lato', sans-serif;
+}
+.contactinfo.Education.Hardskills.Languages{
+   align-items: center;
+   
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.container .right-side{
+
+    position:relative;
+    background-color:white;
+    padding:40px;
+}
+.about{
+    margin-bottom: 50px;
+
+}
+.about:last-child{
+    margin-bottom: 0px;
+}
+.title2{
+    color:#003147;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.p{
+    color:#333;
+    font-family: 'Lato', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+
+}
+.about .box{
+    display: flex;
+    flex-direction:row ;
+    margin:20px 0px;
+
+}
+.about .box .year_company{
+    min-width:150px;
+}
+.about .box .year_company h5{
+    color:#03a9f4;
+   
+
+}
+.about .Technicalskills{
+    color:#333;
+}
+.about .Technicalskills li{
+    margin-bottom: 20px;
+}
+.about .Technicalskills li span{
+    color:#333;
+    font-weight: 300;
+}
+.about.Certifications{
+    color:#333;
+    position:relative;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.about .Certifications ul{
+    padding-top: 30px;
+}
+.about .Certifications  ul li{
+    margin-bottom: 20px;
+}
+.about .Certifications li span{
+    color:#333;
+    font-weight: 300;
+}
+
+.interest ul{
+    display:grid;
+    grid-template-columns: 1px 4fr;
+}
+.interest ul li{
+    list-style: none;
+    color:#333;
+    font-weight: 500;
+    margin:10px;
+
+}
+.interest ul li span{
+    color:#333;
+    font-weight: 300;
+
+
+}
